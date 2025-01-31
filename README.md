@@ -4,7 +4,7 @@
 The **AI-Powered Placement & Interview Simulator** is a Streamlit-based application designed to help students prepare for technical and HR interviews. It dynamically generates interview questions based on the candidate's resume, allowing for an interactive and realistic interview experience.
 
 ## 🚀 Features
-- **Resume Parsing:** Extracts text from uploaded **PDF** or **DOCX** resumes.
+- **Resume Parsing:** Extracts text from uploaded **PDF** resumes.
 - **AI-Generated Interview Questions:** Dynamically generates technical and HR interview questions.
 - **Candidate Response Input:** Allows students to answer interview questions.
 - **AI Feedback & Evaluation:** Provides constructive feedback on candidate responses.
@@ -15,7 +15,6 @@ The **AI-Powered Placement & Interview Simulator** is a Streamlit-based applicat
 - **Streamlit** (UI Framework)
 - **Groq API** (AI Chat Completions)
 - **PyPDF2** (PDF Text Extraction)
-- **python-docx** (DOCX Text Extraction)
 
 ## 📂 Installation & Setup
 ### 1️⃣ Clone the Repository
@@ -53,7 +52,7 @@ streamlit run app.py
 ```
 
 ## 🎥 How It Works
-1. Upload a **PDF** or **DOCX** resume.
+1. Upload a **PDF** resume.
 2. The AI **analyzes** the resume and starts the interview.
 3. The AI **asks a question**, and the user types a response.
 4. AI **evaluates** the answer and provides feedback.
@@ -61,7 +60,8 @@ streamlit run app.py
 6. Repeat until the interview session completes!
 
 ## 🖼️ Demo Screenshot
-![AI Interview Simulator Screenshot](screenshot.png)
+
+![test_page-0001](https://github.com/user-attachments/assets/23fbd84b-fb46-4c21-9727-cf3bb75ad80d)
 
 ## 🤖 API Used
 - **Groq AI Chat Completions API**
